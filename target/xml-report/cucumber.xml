@@ -1,2 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="0.026"/>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="53.248">
+<testcase classname="A101_test" name="A101_test_buying_sock" time="53.061">
+<system-out><![CDATA[Given A101 Acılıs sayfasına git.............................................passed
+Then Giyim & Aksesuar butonuna tıklanır.....................................passed
+And Kadın ic Giyime tıklanır................................................passed
+And Dizaltı Corap bölümüne girilir..........................................passed
+And Renk filitresinden siyah seçilir........................................passed
+Then Acılan ürünün siyah olduğu doğrulanır..................................passed
+And Sepete ekle butonuna tıklanır...........................................passed
+And Sepeti Görüntüle butonuna tıklanır......................................passed
+And Sepeti Onayla butonuna tıklanır.........................................passed
+And Uye olmadan devam et butonuna tıklanır..................................passed
+And Mail ekranı gelir ve mail girilir.......................................passed
+And Devam et butonuna tıklanır..............................................passed
+And Sonrasında adres ekranında oldugun dogrulanır...........................passed
+And Adres olustura tıklanır.................................................passed
+And Adres bilgileri girilir.Ad,soyad,telefon_numarası,il,ilce,mahalle.Adres kutusuna "cavusoglu mah. ayvalı sok no:18 İstanbul/KARTAL" girilir..passed
+And Kaydet butonuna tıklanır................................................passed
+And Sonra ödeme ekranı gelir.lütfen teslimat adresi secin yazısının cıktıgı dogrulanır..passed
+Then Siparisi tamamla butonuna tıklayarak,..................................passed
+Then Odeme ekranına gidildigi ,dogru ekrana yonlendiklerini kontrol edecekler..passed
+When sayfayı kapat..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
