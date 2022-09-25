@@ -13,14 +13,13 @@ Feature: A101_test
     And Uye olmadan devam et butonuna tıklanır.
     And Mail ekranı gelir ve mail girilir.
     And Devam et butonuna tıklanır.
-    And Sonrasında adres ekranında oldugun dogrulanır.
-    And Adres olustura tıklanır.
+    And Adres olustura tıklanır
     And Adres bilgileri girilir.Ad,soyad,telefon_numarası,il,ilce,mahalle.Adres kutusuna "<ev_adres>" girilir.
     And Kaydet butonuna tıklanır.
-    And  Sonra ödeme ekranı gelir.lütfen teslimat adresi secin yazısının cıktıgı dogrulanır.
+    And Sonra ödeme ekranı gelir.lütfen teslimat adresi secin yazısının cıktıgı dogrulanır.
     Then Siparisi tamamla butonuna tıklayarak,
-    Then Odeme ekranına gidildigi ,dogru ekrana yonlendiklerini kontrol edecekler.
-    When sayfayı kapat.
+    Then Odeme ekranına gidildigi ,dogru ekrana yonlendiklerini kontrol edilir
+    When Sayfa kapatılır
 
     Examples:
       |ev_adres|
@@ -39,3 +38,10 @@ Feature: A101_test
 #- Sonrasında adres ekranı gelir. Adres oluştur dedikten sonra ödeme ekranı gelir.
 #- Siparişi tamamla butonuna tıklayarak, ödeme ekranına gidildiği ,doğru ekrana yönlendiklerini kontrol edecekler.
 #*/
+
+#    @Then("Sonrasında adres ekranında oldugun dogrulanır.")
+#  public void sonrasında_adres_ekranında_oldugun_dogrulanır() {
+#
+#  // Assert.assertTrue(a101_page.assertitle.isDisplayed());
+#
+#  }

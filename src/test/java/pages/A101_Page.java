@@ -56,8 +56,8 @@ public class A101_Page {
     @FindBy (xpath = "(//a[@class='new-address js-new-address'])[1]")
     public WebElement yeni_adress;
 
-    @FindBy (xpath = "//span[@class='title']")
-    public WebElement assertitle;
+    @FindBy (xpath = "(//div[@class='desc'])[1]")
+    public WebElement assert_text;
 
     @FindBy (name = "title")
     public WebElement adress_baslık;
