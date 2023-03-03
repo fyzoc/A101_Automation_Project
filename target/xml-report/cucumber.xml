@@ -1,25 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="42.354">
-<testcase classname="A101_test" name="A101_test_buying_sock" time="42.189">
-<system-out><![CDATA[Given A101 Acılıs sayfasına git.............................................passed
-Then Giyim & Aksesuar butonuna tıklanır.....................................passed
-And Kadın ic Giyime tıklanır................................................passed
-And Dizaltı Corap bölümüne girilir..........................................passed
-And Renk filitresinden siyah seçilir........................................passed
-Then Acılan ürünün siyah olduğu doğrulanır..................................passed
-And Sepete ekle butonuna tıklanır...........................................passed
-And Sepeti Görüntüle butonuna tıklanır......................................passed
-And Sepeti Onayla butonuna tıklanır.........................................passed
-And Uye olmadan devam et butonuna tıklanır..................................passed
-And Mail ekranı gelir ve mail girilir.......................................passed
-And Devam et butonuna tıklanır..............................................passed
-And Adres olustura tıklanır.................................................passed
-And Adres bilgileri girilir.Ad,soyad,telefon_numarası,il,ilce,mahalle.Adres kutusuna "cavusoglu mah. ayvalı sok no:18 İstanbul/KARTAL" girilir..passed
-And Kaydet butonuna tıklanır................................................passed
-And Sonra ödeme ekranı gelir.lütfen teslimat adresi secin yazısının cıktıgı dogrulanır..passed
-Then Siparisi tamamla butonuna tıklayarak,..................................passed
-Then Odeme ekranına gidildigi ,dogru ekrana yonlendiklerini kontrol edilir..passed
-When Sayfa kapatılır........................................................passed
-]]></system-out>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="22.291">
+<testcase classname="A101_test" name="A101_test_buying_sock" time="22.072">
+<failure message="Cannot locate an element using id=CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-04TQQJUH', ip: '192.168.2.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given A101 Acılıs sayfasına git.............................................failed
+Then Giyim & Aksesuar butonuna tıklanır.....................................skipped
+And Kadın ic Giyime tıklanır................................................skipped
+And Dizaltı Corap bölümüne girilir..........................................skipped
+And Renk filitresinden siyah seçilir........................................skipped
+Then Acılan ürünün siyah olduğu doğrulanır..................................skipped
+And Sepete ekle butonuna tıklanır...........................................skipped
+And Sepeti Görüntüle butonuna tıklanır......................................skipped
+And Sepeti Onayla butonuna tıklanır.........................................skipped
+And Uye olmadan devam et butonuna tıklanır..................................skipped
+And Mail ekranı gelir ve mail girilir.......................................skipped
+And Devam et butonuna tıklanır..............................................skipped
+And Adres olustura tıklanır.................................................skipped
+And Adres bilgileri girilir.Ad,soyad,telefon_numarası,il,ilce,mahalle.Adres kutusuna "cavusoglu mah. ayvalı sok no:18 İstanbul/KARTAL" girilir..skipped
+And Kaydet butonuna tıklanır................................................skipped
+And Sonra ödeme ekranı gelir.lütfen teslimat adresi secin yazısının cıktıgı dogrulanır..skipped
+Then Siparisi tamamla butonuna tıklayarak,..................................skipped
+Then Odeme ekranına gidildigi ,dogru ekrana yonlendiklerini kontrol edilir..skipped
+When Sayfa kapatılır........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate an element using id=CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-04TQQJUH', ip: '192.168.2.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at stepdefinitions.A101_Stepdefination.a101_acılıs_sayfasına_git(A101_Stepdefination.java:23)
+	at ✽.A101 Acılıs sayfasına git.(file:///C:/Users/HP/IdeaProjects/A101_test_automation_project/./src/test/resources/features/A101_Harca_harca_bitmez.feature:4)
+]]></failure>
 </testcase>
 </testsuite>

@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-09-25T06:41:53.773Z",
+        "start_timestamp": "2022-10-13T18:38:50.277Z",
         "line": 26,
         "name": "A101_test_buying_sock",
         "description": "",
@@ -13,8 +13,9 @@
         "steps": [
           {
             "result": {
-              "duration": 7191000000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using id\u003dCybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-04TQQJUH\u0027, ip: \u0027192.168.2.166\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_332\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.click(Unknown Source)\r\n\tat stepdefinitions.A101_Stepdefination.a101_acılıs_sayfasına_git(A101_Stepdefination.java:23)\r\n\tat ✽.A101 Acılıs sayfasına git.(file:///C:/Users/HP/IdeaProjects/A101_test_automation_project/./src/test/resources/features/A101_Harca_harca_bitmez.feature:4)\r\n",
+              "duration": 21846000000,
+              "status": "failed"
             },
             "line": 4,
             "name": "A101 Acılıs sayfasına git.",
@@ -25,8 +26,8 @@
           },
           {
             "result": {
-              "duration": 7616000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 5,
             "name": "Giyim \u0026 Aksesuar butonuna tıklanır.",
@@ -37,8 +38,8 @@
           },
           {
             "result": {
-              "duration": 194000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 6,
             "name": "Kadın ic Giyime tıklanır.",
@@ -49,8 +50,8 @@
           },
           {
             "result": {
-              "duration": 2651000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 7,
             "name": "Dizaltı Corap bölümüne girilir.",
@@ -61,8 +62,8 @@
           },
           {
             "result": {
-              "duration": 3995000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 8,
             "name": "Renk filitresinden siyah seçilir.",
@@ -73,8 +74,7 @@
           },
           {
             "result": {
-              "duration": 636000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 9,
             "name": "Acılan ürünün siyah olduğu doğrulanır.",
@@ -85,8 +85,8 @@
           },
           {
             "result": {
-              "duration": 275000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 10,
             "name": "Sepete ekle butonuna tıklanır.",
@@ -97,8 +97,8 @@
           },
           {
             "result": {
-              "duration": 1403000000,
-              "status": "passed"
+              "duration": 2000000,
+              "status": "skipped"
             },
             "line": 11,
             "name": "Sepeti Görüntüle butonuna tıklanır.",
@@ -109,8 +109,8 @@
           },
           {
             "result": {
-              "duration": 1552000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 12,
             "name": "Sepeti Onayla butonuna tıklanır.",
@@ -121,8 +121,8 @@
           },
           {
             "result": {
-              "duration": 471000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 13,
             "name": "Uye olmadan devam et butonuna tıklanır.",
@@ -133,8 +133,8 @@
           },
           {
             "result": {
-              "duration": 882000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 14,
             "name": "Mail ekranı gelir ve mail girilir.",
@@ -145,8 +145,7 @@
           },
           {
             "result": {
-              "duration": 155000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "Devam et butonuna tıklanır.",
@@ -157,8 +156,7 @@
           },
           {
             "result": {
-              "duration": 3292000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "Adres olustura tıklanır",
@@ -169,8 +167,7 @@
           },
           {
             "result": {
-              "duration": 4416000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 17,
             "name": "Adres bilgileri girilir.Ad,soyad,telefon_numarası,il,ilce,mahalle.Adres kutusuna \"cavusoglu mah. ayvalı sok no:18 İstanbul/KARTAL\" girilir.",
@@ -187,8 +184,8 @@
           },
           {
             "result": {
-              "duration": 3197000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 18,
             "name": "Kaydet butonuna tıklanır.",
@@ -199,8 +196,8 @@
           },
           {
             "result": {
-              "duration": 62000000,
-              "status": "passed"
+              "duration": 2000000,
+              "status": "skipped"
             },
             "line": 19,
             "name": "Sonra ödeme ekranı gelir.lütfen teslimat adresi secin yazısının cıktıgı dogrulanır.",
@@ -211,8 +208,7 @@
           },
           {
             "result": {
-              "duration": 3155000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 20,
             "name": "Siparisi tamamla butonuna tıklayarak,",
@@ -223,8 +219,7 @@
           },
           {
             "result": {
-              "duration": 134000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 21,
             "name": "Odeme ekranına gidildigi ,dogru ekrana yonlendiklerini kontrol edilir",
@@ -235,8 +230,8 @@
           },
           {
             "result": {
-              "duration": 762000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 22,
             "name": "Sayfa kapatılır",
